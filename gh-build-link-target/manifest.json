@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "gh build link target",
+  "version": "1.0",
+
+  "description": "Adds target = _blank to github build links",
+
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+
+}
