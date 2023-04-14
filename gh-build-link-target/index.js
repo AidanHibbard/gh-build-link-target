@@ -1,2 +1,1 @@
-const build_link = document.querySelectorAll('.status-actions')[0];
-build_link.target = "_blank";
+document.querySelectorAll('.status-actions')[0].target = "_blank";
